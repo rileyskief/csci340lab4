@@ -1,17 +1,41 @@
----
-hghj
----
+#image-duck {
+  width: 75%;
+  height: auto;
+}
 
-@import url(https://fonts.googleapis.com/css?family=Titillum+Web);
+#image-duck-random {
+  width: 75%;
+  height: auto;
+}
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+#lab-image {
+  width: 75%;
+  height: auto;
+}
 
-  
-  body {
-    background-color: lightblue;
-    font-family: "Mooli", sans-serif;
-    color: darkgrey;
-  }
-  
+#genre-button {
+  margin-top: 12px;
+  font-family: 'Titillium Web', 'Verdana', sans-serif;
+  color: rgb(92, 126, 154);
+}
+
+#both-button {
+  margin-top: 12px;
+  font-family: 'Titillium Web', 'Verdana', sans-serif;
+  color: rgb(92, 126, 154);
+}
+
+#fact-button {
+  margin-top: 12px;
+  font-family: 'Titillium Web', 'Verdana', sans-serif;
+  color: rgb(92, 126, 154);
+}
+
+body {
+  font-family: 'Titillium Web', 'Verdana', sans-serif;
+  color: rgb(166, 191, 213);
+}
+
+#name-duck {
+  padding-top: 10px;
+}
