@@ -1,18 +1,3 @@
-#image-duck {
-  width: 75%;
-  height: auto;
-}
-
-#image-duck-random {
-  width: 75%;
-  height: auto;
-}
-
-#lab-image {
-  width: 75%;
-  height: auto;
-}
-
 #genre-button {
   margin-top: 12px;
   font-family: 'Titillium Web', 'Verdana', sans-serif;
@@ -36,6 +21,3 @@ body {
   color: rgb(166, 191, 213);
 }
 
-#name-duck {
-  padding-top: 10px;
-}
