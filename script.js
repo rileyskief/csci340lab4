@@ -1,4 +1,4 @@
-function fact() {
+
     $(document).ready(function() {
         $('#fact').click(function() {
             $.ajax({
@@ -13,11 +13,9 @@ function fact() {
             });
         });
     });
-}
-  
 
-function music() {
-    $(document).ready(function() {
+
+    
         $('#music').click(function() {
             $.ajax({
                 dataType: "json",
@@ -30,15 +28,14 @@ function music() {
                 }
             });
         });
-      });
-  }
-  function both() {
-    $(document).ready(function() {
+    
+  
+
+    
         $('#both').click(function() {
             music();
             fact();
         });
-      });
-  }
+      
 
 
