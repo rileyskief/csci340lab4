@@ -5,9 +5,10 @@
                 dataType: "json",
                 url: "https://cat-fact.herokuapp.com/facts",
                 success: function(results) {
-                console.log(results["text"]); },
+                    console.log(results["text"], results["setup"], results["delivery"]);},
                 error: function(xhr,status,error) {
-                console.log(error); }
+                    console.log(error);
+
             });
         });
     });
@@ -17,9 +18,8 @@
                 dataType: "json",
                 url: "https://binaryjazz.us/wp-json/genrenator/v1/genre/",
                 success: function(results) {
-                console.log(results["text"]); },
-                error: function(xhr,status,error) {
-                console.log(error); }
+                    console.log(results["text"], results["setup"], results["delivery"]);},
+                
             });
         });
     
@@ -29,9 +29,8 @@
                     dataType: "json",
                     url: "https://cat-fact.herokuapp.com/facts",
                     success: function(results) {
-                    console.log(results["text"]); },
-                    error: function(xhr,status,error) {
-                    console.log(error);}
+                        console.log(results["text"], results["setup"], results["delivery"]);},
+                        
                 });
             });
        
@@ -40,9 +39,8 @@
                     dataType: "json",
                     url: "https://binaryjazz.us/wp-json/genrenator/v1/genre/",
                     success: function(results) {
-                    console.log(results["text"]); },
-                    error: function(xhr,status,error) {
-                    console.log(error); }
+                        console.log(results["text"]); },
+                        
                 });
             });
         });
