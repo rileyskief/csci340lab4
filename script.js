@@ -6,8 +6,7 @@
                 url: "https://cat-fact.herokuapp.com/facts",
                 success: function(results) {
                     console.log(results["text"], results["setup"], results["delivery"]);},
-                error: function(xhr,status,error) {
-                    console.log(error);
+                    
 
             });
         });
