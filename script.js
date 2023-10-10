@@ -11,13 +11,14 @@
                   console.log(error);
                 }
               });
+            });
+            $('#click').click(function() {
               $.ajax({
                 dataType: "json",
                 url: "https://binaryjazz.us/wp-json/genrenator/v1/genre/",
                 success: function(results) {
-                  console.log(results["joke"], results["setup"], results["delivery"]);
-                  $('#fact').text(results["setup"] + " " + results["delivery"])
-                  $('#fact').text(results["joke"])
+                  console.log(results);
+                  $('#Genre').text(results)
                 }
               })
             });  
