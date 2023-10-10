@@ -3,10 +3,10 @@
             $('#clicker').click(function() {
               $.ajax({
                 dataType: "json",
-                url: "https://cat-fact.herokuapp.com/facts",
+                url: "https://meowfacts.herokuapp.com/",
                 success: function(results) {
-                  console.log(results[0]["text"]);   
-                  $('#fact').text(results[0]["text"])
+                  // console.log(results[0]["data"]);   
+                  $('#fact').text(results["data"])
                 },
                 error: function(xhr,status,error) {
                   console.log(error);
