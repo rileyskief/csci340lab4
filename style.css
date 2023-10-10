@@ -1,19 +1,13 @@
 #music {
-  margin-top: 12px;
+  margin-top: 20px;
   font-family: 'Mooli', sans-serif;
-  color: rgb(92, 126, 154);
+  color: rgb(166, 191, 213);
 }
 
 #fact {
-  margin-top: 12px;
+  margin-top: 20px;
   font-family: 'Mooli', sans-serif;
-  color: rgb(92, 126, 154);
-}
-
-#both {
-  margin-top: 12px;
-  font-family: 'Mooli', sans-serif;
-  color: rgb(92, 126, 154);
+  color: rgb(166, 191, 213);
 }
 
 body {
